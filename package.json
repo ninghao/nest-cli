@@ -1,0 +1,29 @@
+{
+  "name": "@ninghao/nest-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "tsc-watch"
+  },
+  "bin": {
+    "nn": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninghao/nest-cli"
+  },
+  "keywords": [],
+  "author": "wanghao <wanghao@ninghao.net>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.6.0"
+  }
+}
